@@ -39,6 +39,8 @@ dependencies:
   fontresoft: ^0.0.5
   flutter_animation_plus: ^0.0.7
   animate_do: ^4.2.0
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.7.0
 
 dev_dependencies:
   flutter_test:

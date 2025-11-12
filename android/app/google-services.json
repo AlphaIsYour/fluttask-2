@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943469182947",
+    "project_id": "yoralph-mobile",
+    "storage_bucket": "yoralph-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943469182947:android:bc537db9d1971ce7d22ad6",
+        "android_client_info": {
+          "package_name": "com.example.fluttask2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt_40PIwK1st0_ZCJUAvEZSNbQVM5wiPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
