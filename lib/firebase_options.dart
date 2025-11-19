@@ -50,20 +50,24 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyArjC59cDcXoCbkR5I0TcJHkSkOQ_Q7jzI',
-    appId: '1:943469182947:web:b593c858d2ece8f2d22ad6',
-    messagingSenderId: '943469182947',
+    apiKey: '...',
+    appId: '...',
+    messagingSenderId: '...',
     projectId: 'yoralph-mobile',
     authDomain: 'yoralph-mobile.firebaseapp.com',
     storageBucket: 'yoralph-mobile.firebasestorage.app',
     measurementId: 'G-NSX73K1VDR',
+    databaseURL:
+        'https://yoralph-mobile-default-rtdb.asia-southeast1.firebasedatabase.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDt_40PIwK1st0_ZCJUAvEZSNbQVM5wiPo',
-    appId: '1:943469182947:android:bc537db9d1971ce7d22ad6',
-    messagingSenderId: '943469182947',
+    apiKey: '...',
+    appId: '...',
+    messagingSenderId: '...',
     projectId: 'yoralph-mobile',
     storageBucket: 'yoralph-mobile.firebasestorage.app',
+    databaseURL:
+        'https://yoralph-mobile-default-rtdb.asia-southeast1.firebasedatabase.app',
   );
 }
