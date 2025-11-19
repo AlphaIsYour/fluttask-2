@@ -51,12 +51,13 @@ class _Belajar2State extends State<Belajar2> {
               child: Image.asset("assets/image/logoub.jpg", fit: BoxFit.cover),
             ),
           ),
+          const SizedBox(height: 20),
           SingleChildScrollView(
             child: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  TypeWriter.text(
+                  Text(
                     "Mahasiswa UB",
                     style: TextStyle(
                       fontFamily: FontResoft.poppins,
@@ -64,7 +65,6 @@ class _Belajar2State extends State<Belajar2> {
                       fontWeight: FontWeight.bold,
                       color: Color.fromARGB(255, 0, 0, 0),
                     ),
-                    duration: Duration(milliseconds: 100),
                   ),
                   const SizedBox(height: 20),
                   Padding(
